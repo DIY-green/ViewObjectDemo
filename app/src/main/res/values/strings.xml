@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ViewObjectDemo</string>
+    <string name="weather_json1">{
+        "status": "ok",
+        "now": {
+            "cond": {
+                "code": "100",
+                "txt": "晴"
+            },
+            "fl": "30",
+            "hum": "20%",
+            "pcpn": "0.0",
+            "pres": "1001",
+            "tmp": "32",
+            "vis": "10",
+            "wind": {
+                "deg": "10",
+                "dir": "北风",
+                "sc": "3级",
+                "spd": "15"
+            }
+        }
+    }</string>
+    <string name="weather_json2">{
+        "status": "ok",
+        "now": {
+            "cond": {
+                "code": "-1",
+                "txt": "大雪"
+            },
+            "fl": "0",
+            "hum": "2%",
+            "pcpn": "0.0",
+            "pres": "701",
+            "tmp": "0",
+            "vis": "3",
+            "wind": {
+                "deg": "20",
+                "dir": "北风",
+                "sc": "5级",
+                "spd": "25"
+            }
+        }
+    }</string>
+    <string name="weather_json3">{
+        "status": "ok",
+        "now": {
+            "cond": {
+                "code": "67",
+                "txt": "阴"
+            },
+            "fl": "20",
+            "hum": "20%",
+            "pcpn": "0.0",
+            "pres": "801",
+            "tmp": "21",
+            "vis": "10",
+            "wind": {
+                "deg": "10",
+                "dir": "北风",
+                "sc": "4级",
+                "spd": "11"
+            }
+        }
+    }</string>
+</resources>
