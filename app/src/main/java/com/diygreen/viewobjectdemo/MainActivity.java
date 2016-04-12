@@ -68,11 +68,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.rb_vointerface:
                         mType = 1;
-                        fillDataByVOInterface();
                         break;
                     case R.id.rb_vomethod:
                         mType = 2;
-                        fillDataByVOMethod();
                         break;
                 }
             }
@@ -157,6 +155,7 @@ public class MainActivity extends AppCompatActivity {
         Gson gson = new Gson();
         mWeatherBean = gson.fromJson(weatherJsonStr, WeatherBean.class);
         mVOClass = new WeatherVO(mWeatherBean);
+        mVOInterface = mWeatherBean;
         WeatherVO weatherVO2 = VOConverterUtil.getWeatherVOFromWeatherBean(mWeatherBean);
 
         Log.e(TAG, mWeatherBean.toString());
